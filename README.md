@@ -19,8 +19,10 @@ A Bash script to automate user and group synchronization with a TrueNAS server v
    git clone https://github.com/ShipwreckIII/TrueNAS_GroupManager.git
    cd TrueNAS_GroupManager
 2. Run the script:
-chmod +x user_sync_tool.sh
-./user_sync_tool.sh
+   ```bash
+   chmod +x user_sync_tool.sh
+   ./user_sync_tool.sh
+
 3. Enter the required details when prompted:
 TrueNAS server IP
 Username and Password
